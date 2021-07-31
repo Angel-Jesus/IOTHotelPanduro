@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IOT Hotel Panduro</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="txtIngresar">Ingresar</string>
+    <string name="txtLogo">Smart Home</string>
+    <string name="txtbtn">GO</string>
+    <string name="txtArea">Patio</string>
+    <string name="txtRight">Derecha</string>
+    <string name="txtLeft">Izquierda</string>
+    <string name="txtPrincipal">Centro</string>
+    <string name="txtPublicty">Propaganda</string>
+    <string name="txtOpen">Open</string>
+    <string name="SignOut">Cerrar Sesion</string>
+</resources>

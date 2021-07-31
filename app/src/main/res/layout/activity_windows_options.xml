@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_principal"
+    tools:context=".windowsOptions">
+
+    <Button
+        android:id="@+id/btnLight"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_off"
+        android:text="@string/txtbtn"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/Light"
+        app:layout_constraintStart_toStartOf="@+id/Light"
+        app:layout_constraintTop_toBottomOf="@+id/Light" />
+
+    <Button
+        android:id="@+id/btnDoor"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/btn_off"
+        android:backgroundTint="@null"
+        android:text="@string/txtbtn"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/Light"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/luz"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="90dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnDoor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLight"
+        app:srcCompat="@drawable/puerta"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

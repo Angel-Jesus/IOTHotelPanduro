@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "204229430459",
+    "firebase_url": "https://iothotelpanduro-default-rtdb.firebaseio.com",
+    "project_id": "iothotelpanduro",
+    "storage_bucket": "iothotelpanduro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204229430459:android:0af5881a6038fd9d01ed9e",
+        "android_client_info": {
+          "package_name": "com.example.iothotelpanduro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204229430459-ak7f08sfpoa9g22c952154pv3eplru8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1VDCVVGZo7TuztFJ5yWTbc01ywcfx-q0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204229430459-ak7f08sfpoa9g22c952154pv3eplru8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204229430459:android:d2030d208f46a99a01ed9e",
+        "android_client_info": {
+          "package_name": "com.example.smarthousep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204229430459-ak7f08sfpoa9g22c952154pv3eplru8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1VDCVVGZo7TuztFJ5yWTbc01ywcfx-q0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204229430459-ak7f08sfpoa9g22c952154pv3eplru8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

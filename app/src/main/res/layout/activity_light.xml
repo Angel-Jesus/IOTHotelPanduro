@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_principal"
+    tools:context=".Light">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnArea"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/casa"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="260dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnArea"
+        app:srcCompat="@drawable/hotel"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btnArea"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_off"
+        android:text="@string/txtArea"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/btnPrincipal"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/btn_off"
+        android:text="@string/txtPrincipal"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnPublicity"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/btnLeft"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/btn_off"
+        android:text="@string/txtLeft"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnPrincipal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/btnRight"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/btn_off"
+        android:text="@string/txtRight"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnPrincipal"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/btnPublicity"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/btn_off"
+        android:text="@string/txtPublicty"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPrincipal"
+        app:layout_constraintVertical_bias="0.575"
+        tools:ignore="SmallSp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

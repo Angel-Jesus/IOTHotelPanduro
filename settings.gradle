@@ -1,0 +1,2 @@
+rootProject.name = "IOT Hotel Panduro"
+include ':app'
